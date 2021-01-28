@@ -1,0 +1,23 @@
+Request Headers
+User-Agent: PostmanRuntime/7.26.10  // origin of the request
+Accept: */*  // Specify what media types can be accepted as a response
+Cache-Control: no-cache  // specify rules that must be followed by all caching nodes in path of request
+Postman-Token: 8dc2898a-26b9-474b-b6f3-248930a22c51  // access token
+Host: www.googleapis.com  // host of resource being requested
+Accept-Encoding: gzip, deflate, br  // acceptable methods of encoding response
+Connection: keep-alive  // connection type (persistent)
+▶
+Response Headers
+Content-Type: application/json; charset=UTF-8  // media type of request body
+Vary: Origin  // tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a new one from server.
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip  // type of encoding used on data
+Date: Thu, 28 Jan 2021 03:52:32 GMT  // date of response
+Server: ESF  // server name
+Cache-Control: private  // tells whether this object can be cached
+X-XSS-Protection: 0  // cross site scripting filter
+X-Frame-Options: SAMEORIGIN  // clickjacking protection
+X-Content-Type-Options: nosniff  // prevents internet explorer from sniffing reponse away from declared content type
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"  // alternate location of server
+Transfer-Encoding: chunked  // form of encoding used
